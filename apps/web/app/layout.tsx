@@ -24,8 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen`}>
-        <Appbar/>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen`}
+      >
+        <Appbar />
         {children}
       </body>
     </html>
